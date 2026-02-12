@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview --host --port ${PORT:-10000}"
   },
   "dependencies": {
     "@capacitor/core": "^8.1.0",
